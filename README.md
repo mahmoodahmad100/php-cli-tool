@@ -2,7 +2,11 @@
 a basic CLI tool
 
 ## Getting Started
-in the `terminal` navigate to the root directory and then run the following command:
+In the `terminal` navigate to the root directory and then run the following command:
+
+`composer install`
+
+You can **Now** add the string by running the following command
 
 `php cli.php string='your string shoud be here'`
 

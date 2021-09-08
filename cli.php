@@ -1,5 +1,5 @@
 <?php
 
-require __DIR__ . '/src/Dummy.php'; // temp
+require __DIR__.'/vendor/autoload.php';
 
 new Command\Dummy();
