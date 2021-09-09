@@ -75,9 +75,11 @@ class StringArgument extends Base
                     return $e->getMessage();
                 }
                 break;
+            // @codeCoverageIgnoreStart
             case 'php':
                 // ...
-                break;  
+                break;
+            // @codeCoverageIgnoreEnd
         }
 
         return strtoupper($type) . ' created!';

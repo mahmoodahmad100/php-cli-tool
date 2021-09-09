@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests>
-  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console with line break" status="0" time="0.020747152" size="-1" groups="default">
+  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console with line break" status="0" time="0.021315608" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithoutLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console without line break" status="0" time="0.01224565" size="-1" groups="default">
+  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithoutLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console without line break" status="0" time="0.006469964" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Console\Tests\StringArgumentTest" methodName="testUpperCase" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Upper case" status="0" time="0.008077272" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Console\Tests\StringArgumentTest" methodName="testAlternate" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Alternate" status="0" time="0.008102315" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Console\Tests\StringArgumentTest" methodName="testExportToCsv" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Export to csv" status="0" time="0.011678703" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Console\Tests\StringArgumentTest" methodName="testHandleWithArgumentstring" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Handle with argumentstring" status="0" time="0.011727583" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Console\Tests\StringArgumentTest" methodName="testHandleWithoutArgumentstring" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Handle without argumentstring" status="0" time="0.011882972" size="-1" groups="default">
     <group name="default"/>
   </test>
 </tests>

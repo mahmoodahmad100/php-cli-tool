@@ -2,3 +2,10 @@ Base (Console\Tests\Base)
  [x] Output to console with line break
  [x] Output to console without line break
 
+String Argument (Console\Tests\StringArgument)
+ [x] Upper case
+ [x] Alternate
+ [x] Export to csv
+ [x] Handle with argumentstring
+ [x] Handle without argumentstring
+

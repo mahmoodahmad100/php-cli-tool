@@ -70,6 +70,7 @@ class Base extends Console
      * handle the argument/s
      * 
      * @return void
+     * @codeCoverageIgnore
      */
     public function handle()
     {
