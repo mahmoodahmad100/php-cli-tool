@@ -13,18 +13,29 @@ class Dummy
     public function __construct($message = "test a string argument:\n")
     {
         global $argc, $argv;
-        echo "test a string argument:\n";
+        echo $message;
         parse_str(implode('&', array_slice($argv, 1)), $_GET);
-        echo $_GET['string'];
+        echo $this->dummyMethodOne($_GET['string']);
+        echo $this->dummyMethodTwo($_GET['string']);
     }
 
     /**
      * just a dummy method
      * 
-     * @return void
+     * @return string
      */
-    public function dummyMethod()
+    private function dummyMethodOne($dummy)
     {
+        return strtoupper($dummy);
+    }
 
+    /**
+     * just a dummy method
+     * 
+     * @return string
+     */
+    private function dummyMethodTwo($dummy)
+    {
+        return strtolower($dummy);
     }
 }
