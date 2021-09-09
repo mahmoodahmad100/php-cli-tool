@@ -1,10 +1,10 @@
 <?php
 
-namespace Command;
+namespace Console;
 
-use Command\Definition\Cli;
+use Console\Definition\Console;
 
-class Base extends Cli
+class Base extends Console
 {
     /**
      * welcoming message

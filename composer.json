@@ -4,7 +4,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Command\\": "src"
+            "Console\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Console\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     }
 }
