@@ -13,30 +13,59 @@ class StringArgument extends Base
     {
         if (isset($this->arguments['string'])) {
             $argument = $this->arguments['string'];
-            $this->outputToConsole($this->dummyMethodOne($argument));
-            $this->outputToConsole($this->dummyMethodTwo($argument), false);
+            $this->outputToConsole($this->uppercase($argument));
+            $this->outputToConsole($this->alternate($argument));
+            $this->outputToConsole($this->export($argument), false);
         } else {
             $this->outputToConsole('please enter a valid argument');
         }
     }
 
     /**
-     * just a dummy method
+     * converts the string to uppercase
      * 
+     * @param string $string
      * @return string
      */
-    private function dummyMethodOne($dummy)
+    private function uppercase($string)
     {
-        return strtoupper($dummy);
+        return strtoupper($string);
     }
 
     /**
-     * just a dummy method
+     * converts the string to alternate upper and lower case
      * 
+     * @param string $string
+     * @param string $start
      * @return string
      */
-    private function dummyMethodTwo($dummy)
+    private function alternate($string, $start = 'lower')
     {
-        return strtolower($dummy);
+        for ($i = 0; $i < strlen($string); $i++) {
+            if ($start == 'lower') {
+                $string[$i] = strtolower($string[$i]);
+            } else {
+                $string[$i] = strtoupper($string[$i]);
+            }
+
+            $start = $start == 'lower' ? 'upper' : 'lower';
+        }
+
+        return $string;
+    }
+
+    /**
+     * creates a file (CSV for example) from the string by making each character a column (in case of CSV)
+     * 
+     * @param string $string
+     * @param string $type
+     * @return string
+     */
+    private function export($string, $type = 'CSV')
+    {
+        /**
+         * @todo create the file
+         */
+        return "{$type} created!";
     }
 }
