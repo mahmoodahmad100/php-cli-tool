@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tests>
-  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console with line break" status="0" time="0.023132316" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithoutLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console without line break" status="0" time="0.006615699" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-  <test className="Console\Tests\StringArgumentTest" methodName="testUpperCase" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Upper case" status="0" time="0.007910114" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-  <test className="Console\Tests\StringArgumentTest" methodName="testAlternate" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Alternate" status="0" time="0.00778731" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-  <test className="Console\Tests\StringArgumentTest" methodName="testExportToCsv" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Export to csv" status="0" time="0.009526775" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-  <test className="Console\Tests\StringArgumentTest" methodName="testHandleWithArgumentstring" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Handle with argumentstring" status="0" time="0.009232589" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-  <test className="Console\Tests\StringArgumentTest" methodName="testHandleWithoutArgumentstring" prettifiedClassName="String Argument (Console\Tests\StringArgument)" prettifiedMethodName="Handle without argumentstring" status="0" time="0.008193135" size="-1" groups="default">
-    <group name="default"/>
-  </test>
-</tests>
+<testsuites>
+  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.102330">
+    <testsuite name="Unit" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.102330">
+      <testsuite name="Console\Tests\BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.030015">
+        <testcase name="testOutputToConsoleWithLineBreak" class="Console\Tests\BaseTest" classname="Console.Tests.BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" line="18" assertions="1" time="0.021677"/>
+        <testcase name="testOutputToConsoleWithoutLineBreak" class="Console\Tests\BaseTest" classname="Console.Tests.BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" line="28" assertions="1" time="0.008338"/>
+      </testsuite>
+      <testsuite name="Console\Tests\StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.072315">
+        <testcase name="testUpperCase" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="25" assertions="1" time="0.010455"/>
+        <testcase name="testAlternate" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="33" assertions="1" time="0.009021"/>
+        <testcase name="testExportToCsv" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="41" assertions="1" time="0.028245"/>
+        <testcase name="testHandleWithArgumentstring" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="49" assertions="1" time="0.011423"/>
+        <testcase name="testHandleWithoutArgumentstring" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="66" assertions="1" time="0.013170"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
