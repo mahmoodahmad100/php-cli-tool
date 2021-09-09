@@ -71,9 +71,11 @@ class StringArgument extends Base
                 $data[] = str_split($string);
                 try {
                     $this->exportToCsv($data, $dir, $file_name);
+                // @codeCoverageIgnoreStart
                 } catch(\Exception $e) {
                     return $e->getMessage();
                 }
+                // @codeCoverageIgnoreEnd
                 break;
             // @codeCoverageIgnoreStart
             case 'php':
@@ -104,9 +106,11 @@ class StringArgument extends Base
             }
             
             fclose($file);
+
+        // @codeCoverageIgnoreStart
         } catch(\Exception $e) {
             throw new \Exception($e->getMessage());
-        }      
-
+        }
+        // @codeCoverageIgnoreEnd
     }
 }
