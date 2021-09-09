@@ -2,4 +2,4 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-new Command\Dummy();
+new Command\Argument(new Command\StringArgument);
