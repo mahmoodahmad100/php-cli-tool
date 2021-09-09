@@ -55,7 +55,7 @@ class Base extends Cli
     }
 
     /**
-     * output string that will be output to stdout
+     * output to stdout
      * 
      * @param string $message
      * @param bool   $line_break
