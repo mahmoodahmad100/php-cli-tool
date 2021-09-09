@@ -1,17 +1,20 @@
-# php-cli-tool
-a basic CLI tool
+# php CLI tool
+a basic CLI tool written in php
 
 ## Getting Started
-In the `terminal` navigate to the root directory and then run the following command:
+Clone the project then navigate to the project root directory and open the `terminal` then run the following command:
 
 `composer install`
 
-You can **Now** add the string by running the following command
+You can **Now** add the string by running the following command:
 
-`php cli.php string='your string shoud be here'`
+`php cli.php string='the string input should be here'`
 
 ### To Run the tests just run the following:
 `vendor/bin/phpunit`
+
+### To see the code coverage open the following in the browser:
+`ci/codeCoverage/index.html`
 
 ## Need help or Support ? Contact me at:
 [LinkedIn](https://www.linkedin.com/in/mahmood-ahmad-mahmood)
