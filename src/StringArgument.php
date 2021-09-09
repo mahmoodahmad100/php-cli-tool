@@ -42,13 +42,8 @@ class StringArgument extends Base
     private function alternate($string, $start = 'lower')
     {
         for ($i = 0; $i < strlen($string); $i++) {
-            if ($start == 'lower') {
-                $string[$i] = strtolower($string[$i]);
-            } else {
-                $string[$i] = strtoupper($string[$i]);
-            }
-
-            $start = $start == 'lower' ? 'upper' : 'lower';
+            $string[$i] = $start == 'lower' ? strtolower($string[$i]) : strtoupper($string[$i]);
+            $start      = $start == 'lower' ? 'upper' : 'lower';
         }
 
         return $string;

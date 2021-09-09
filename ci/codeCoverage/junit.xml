@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.076731">
-    <testsuite name="Unit" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.076731">
-      <testsuite name="Console\Tests\BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.029037">
-        <testcase name="testOutputToConsoleWithLineBreak" class="Console\Tests\BaseTest" classname="Console.Tests.BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" line="18" assertions="1" time="0.022758"/>
-        <testcase name="testOutputToConsoleWithoutLineBreak" class="Console\Tests\BaseTest" classname="Console.Tests.BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" line="28" assertions="1" time="0.006280"/>
+  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.072398">
+    <testsuite name="Unit" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.072398">
+      <testsuite name="Console\Tests\BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.029748">
+        <testcase name="testOutputToConsoleWithLineBreak" class="Console\Tests\BaseTest" classname="Console.Tests.BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" line="18" assertions="1" time="0.023132"/>
+        <testcase name="testOutputToConsoleWithoutLineBreak" class="Console\Tests\BaseTest" classname="Console.Tests.BaseTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\BaseTest.php" line="28" assertions="1" time="0.006616"/>
       </testsuite>
-      <testsuite name="Console\Tests\StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.047694">
-        <testcase name="testUpperCase" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="25" assertions="1" time="0.009816"/>
-        <testcase name="testAlternate" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="33" assertions="1" time="0.007321"/>
-        <testcase name="testExportToCsv" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="41" assertions="1" time="0.012052"/>
-        <testcase name="testHandleWithArgumentstring" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="49" assertions="1" time="0.010354"/>
-        <testcase name="testHandleWithoutArgumentstring" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="66" assertions="1" time="0.008150"/>
+      <testsuite name="Console\Tests\StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.042650">
+        <testcase name="testUpperCase" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="25" assertions="1" time="0.007910"/>
+        <testcase name="testAlternate" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="33" assertions="1" time="0.007787"/>
+        <testcase name="testExportToCsv" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="41" assertions="1" time="0.009527"/>
+        <testcase name="testHandleWithArgumentstring" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="49" assertions="1" time="0.009233"/>
+        <testcase name="testHandleWithoutArgumentstring" class="Console\Tests\StringArgumentTest" classname="Console.Tests.StringArgumentTest" file="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\tests\StringArgumentTest.php" line="66" assertions="1" time="0.008193"/>
       </testsuite>
     </testsuite>
   </testsuite>
