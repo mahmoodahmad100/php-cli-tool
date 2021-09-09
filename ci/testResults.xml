@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console with line break" status="0" time="0.020747152" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Console\Tests\BaseTest" methodName="testOutputToConsoleWithoutLineBreak" prettifiedClassName="Base (Console\Tests\Base)" prettifiedMethodName="Output to console without line break" status="0" time="0.01224565" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+</tests>

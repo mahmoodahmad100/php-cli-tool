@@ -10,6 +10,9 @@ You can **Now** add the string by running the following command
 
 `php cli.php string='your string shoud be here'`
 
+### To Run the tests just run the following:
+`vendor/bin/phpunit`
+
 ## Need help or Support ? Contact me at:
 [LinkedIn](https://www.linkedin.com/in/mahmood-ahmad-mahmood)
 

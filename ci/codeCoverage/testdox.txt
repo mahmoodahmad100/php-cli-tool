@@ -1,0 +1,4 @@
+Base (Console\Tests\Base)
+ [x] Output to console with line break
+ [x] Output to console without line break
+
