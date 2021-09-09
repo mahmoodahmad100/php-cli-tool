@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631203261">
-  <project timestamp="1631203261">
+<coverage generated="1631206630">
+  <project timestamp="1631206630">
     <file name="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\src\Argument.php">
       <class name="Console\Argument" namespace="global">
         <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
