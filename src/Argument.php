@@ -9,6 +9,7 @@ class Argument
      * 
      * @param Base $argument
      * @return void
+     * @codeCoverageIgnore
      */
     public function __construct(Base $argument)
     {

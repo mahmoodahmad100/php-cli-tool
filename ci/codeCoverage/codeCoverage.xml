@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631202702">
-  <project timestamp="1631202702">
+<coverage generated="1631202877">
+  <project timestamp="1631202877">
     <file name="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\src\Argument.php">
       <class name="Console\Argument" namespace="global">
-        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
-      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="15" type="stmt" count="0"/>
-      <metrics loc="17" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      <metrics loc="18" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="C:\xampp-7.4\htdocs\ipricegroup\php-cli-tool\src\Base.php">
       <class name="Console\Base" namespace="global">
@@ -78,6 +76,6 @@
       <line num="112" type="stmt" count="1"/>
       <metrics loc="111" ncloc="75" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="26" elements="35" coveredelements="29"/>
     </file>
-    <metrics files="4" loc="214" ncloc="132" classes="3" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="37" elements="51" coveredelements="43"/>
+    <metrics files="4" loc="215" ncloc="132" classes="2" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="37" elements="49" coveredelements="43"/>
   </project>
 </coverage>
