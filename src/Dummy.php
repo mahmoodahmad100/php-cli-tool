@@ -15,7 +15,7 @@ class Dummy
         global $argc, $argv;
         echo $message;
         parse_str(implode('&', array_slice($argv, 1)), $_GET);
-        echo $this->dummyMethodOne($_GET['string']);
+        echo $this->dummyMethodOne($_GET['string']) . "\n";
         echo $this->dummyMethodTwo($_GET['string']);
     }
 
