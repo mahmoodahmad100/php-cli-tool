@@ -59,13 +59,52 @@ class StringArgument extends Base
      * 
      * @param string $string
      * @param string $type
+     * @param string $dir
+     * @param string $file_name
      * @return string
      */
-    private function export($string, $type = 'CSV')
+    private function export($string, $type = 'csv', $dir = __DIR__ . '/..', $file_name = 'output')
     {
-        /**
-         * @todo create the file
-         */
-        return "{$type} created!";
+        switch ($type) {
+            case 'csv':
+                $data   = [];
+                $data[] = str_split($string);
+                try {
+                    $this->exportToCsv($data, $dir, $file_name);
+                } catch(\Exception $e) {
+                    return $e->getMessage();
+                }
+                break;
+            case 'php':
+                // ...
+                break;  
+        }
+
+        return strtoupper($type) . ' created!';
+    }
+
+    /**
+     * creates CSV file
+     * 
+     * @param array  $data
+     * @param string $dir
+     * @param string $file_name
+     * @return void
+     * @throws \Exception
+     */
+    private function exportToCsv($data, $dir, $file_name)
+    {
+        try {
+            $file = fopen("$dir/{$file_name}.csv",'w');
+        
+            foreach ($data as $line) {
+                fputcsv($file, $line);
+            }
+            
+            fclose($file);
+        } catch(\Exception $e) {
+            throw new \Exception($e->getMessage());
+        }      
+
     }
 }
